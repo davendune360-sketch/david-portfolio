@@ -472,3 +472,48 @@ footer {
 .footer-links a:hover {
     color: #38bdf8;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-image {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero-image img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .section {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
+
+    .project-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
